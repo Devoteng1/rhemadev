@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 class Activity extends Component {
     render() {
         return (
-            <form>
-                <div className="form-row">
+            <form className="mt-5">
+                <h1 class="display-2"> Create an Activity</h1>
+                <div className="form-row mt-5">
                     <div className="form-group col-md-4">
                         <label htmlFor="inputEmail4">Client Name</label>
                         <input type="text" className="form-control" id="inputEmail4" placeholder="Client Name" />
@@ -18,6 +19,7 @@ class Activity extends Component {
                         <input type="text" className="form-control" id="inputPassword4" placeholder="Job Reference" />
                     </div>
                 </div>
+                
                 <div className="form-row">
                     <div className="form-group col-md-3">
                         <label htmlFor="inputAddress">Start Time</label>
